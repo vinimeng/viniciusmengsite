@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES3",
+        "module": "CommonJS",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "downlevelIteration": true
+    },
+    "include": ["src/ts/**/*"],
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended"
+}

@@ -1,0 +1,5 @@
+webpack.config.prod.js
+webpack.config.dev.js
+tailwind.config.js
+postcss.config.js
+assets/js/*

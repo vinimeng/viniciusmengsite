@@ -1,0 +1,8 @@
+# Disable directory browsing
+Options All -Indexes
+
+# All 404's can be sent to index.php, and everything works as normal.
+ErrorDocument 404 index.php
+
+# Disable server signature start
+ServerSignature Off
