@@ -33,9 +33,6 @@ module.exports = {
 
     plugins: [new MiniCssExtractPlugin({
         filename: 'css/[name].css',
-    }), new CompressionPlugin({
-        exclude: /.map$/,
-        deleteOriginalAssets: 'keep-source-map',
     })],
 
     // loaders
