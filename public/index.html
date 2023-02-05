@@ -66,7 +66,8 @@
 </head>
 
 <body class="body-color text-white">
-	<div class="bg-container m-5 p-5 rounded shadow-lg drop-shadow-lg">
+
+	<div class="bg-container m-5 p-5 rounded shadow-lg drop-shadow-lg lg:w-3/5 lg:mx-auto">
 		<div class="flex justify-center my-28">
 			<div class="flex flex-col justify-center">
 				<div class="flex flex-col align-middle justify-center text-center">
@@ -74,28 +75,174 @@
 					<h1 class="font-bold text-3xl">Vinícius Meng</h1>
 				</div>
 				<div class="flex flex-col sm:flex-row justify-center my-2 text-center text-xl">
-					<a class="mx-2 p-2 underline hover:italic" href="#sobremim">Sobre mim</a>
+					<a class="mx-2 p-2 underline hover:italic" href="#sobremim">Sobre Mim</a>
 					<a class="mx-2 p-2 underline hover:italic" href="#projetos">Projetos</a>
 					<a class="mx-2 p-2 underline hover:italic" href="#contato">Contato</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="bg-container m-5 p-5 rounded shadow-lg drop-shadow-lg">
-		<div class="flex justify-center my-28">
+
+	<div id="sobremim" class="bg-container m-5 p-5 rounded shadow-lg drop-shadow-lg lg:w-3/5 lg:mx-auto">
+		<div class="flex flex-col align-middle justify-center text-center">
+			<h1 class="font-bold underline text-3xl">Sobre Mim</h1>
+		</div>
+		<div class="p-5">
+			<p class="m-2">Me chamo Vinícius Meng, sou técnico em informática formado, atualmente cursando o curso de Engenharia da Computação na Universidade FSG.</p>
+			<p class="m-2">Sou desenvolvedor full stack.</p>
+			<p class="m-2">Tenho afinidade maior com as seguintes tecnologias:</p>
+			<ul class="list-disc m-2 px-8">
+				<li>PHP</li>
+				<li>JavaScript</li>
+				<li>TypeScript</li>
+				<li>Java</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>SASS</li>
+				<li>Banco de dados Oracle</li>
+				<li>Banco de dados MySQL</li>
+				<li>C#</li>
+				<li>Python</li>
+			</ul>
+			<p class="m-2">Mas estou sempre a procura de novos conhecimentos!</p>
+		</div>
+	</div>
+
+	<div id="projetos" class="bg-container m-5 p-5 rounded shadow-lg drop-shadow-lg lg:w-3/5 lg:mx-auto">
+		<div class="flex justify-center">
 			<div class="flex flex-col justify-center">
 				<div class="flex flex-col align-middle justify-center text-center">
-					<img class="w-32 self-center" src="./assets/img/transparente.png" />
-					<h1 class="font-bold text-3xl">Vinícius Meng</h1>
+					<h1 class="font-bold underline text-3xl">Projetos</h1>
 				</div>
-				<div class="flex flex-col sm:flex-row justify-center my-2 text-center text-xl">
-					<a class="mx-2 p-2 underline hover:italic" href="#sobremim">Sobre mim</a>
-					<a class="mx-2 p-2 underline hover:italic" href="#projetos">Projetos</a>
-					<a class="mx-2 p-2 underline hover:italic" href="#contato">Contato</a>
+				<div class="flex flex-col sm:flex-row justify-center mt-2 sm:my-2 text-center text-lg">
+					<a class="mx-2 p-2 underline hover:italic" href="#betterstartup">BetterStartUp</a>
+					<a class="mx-2 p-2 underline hover:italic" href="#leveleditor">LevelEditor</a>
+					<a class="mx-2 p-2 underline hover:italic" href="#laudosweb">LaudosWeb</a>
+				</div>
+				<div class="flex flex-col sm:flex-row justify-center mb-2 text-center text-lg">
+					<a class="mx-2 p-2 underline hover:italic" href="#fmsistemas">FM Sistemas</a>
+					<a class="mx-2 p-2 underline hover:italic" href="#impressaosobdemanda">Impressão Sob Demanda</a>
+					<a class="mx-2 p-2 underline hover:italic" href="#sitepessoal">Site Pessoal</a>
 				</div>
 			</div>
 		</div>
+
+		<hr>
+
+		<div id="betterstartup" class="p-5">
+			<h1 class="font-bold underline text-xl">BetterStartUp</h1>
+			<p class="m-2">Pequeno programa feito em C# para gerenciar a inicialização de programas no sistema operacional Windows.</p>
+			<p class="m-2">Funcionalidades:</p>
+			<ul class="list-disc m-2 px-8">
+				<li>Retirar programas da inicialização do Windows;</li>
+				<li>Adicionar programas a lista de inicialização do BetterStartUp;</li>
+				<li>Definir ordem dos programas adicionados a lista de inicialização;</li>
+				<li>Definir delay de inicialização dos programas adicionados a lista;</li>
+				<li>Definir parâmetros de linha de comando dos programas adicionados a lista;</li>
+			</ul>
+			<p class="m-2"><a class="underline hover:italic" href="https://github.com/vinimeng/BetterStartUp" rel="noreferrer noopener">→ Projeto no GitHub</a></p>
+			<small class="m-2 italic">Se gostar, estrele o projeto ;)</small>
+		</div>
+
+		<hr>
+
+		<div id="leveleditor" class="p-5">
+			<h1 class="font-bold underline text-xl">LevelEditor</h1>
+			<p class="m-2">Editor de sprites arrasta e solta desenvolvido em Typescript. Tem o objetivo de ser o editor de níveis do jogo web que estou desenvolvendo.</p>
+			<p class="m-2">Funcionalidades:</p>
+			<ul class="list-disc m-2 px-8">
+				<li>Permite que níveis sejam feitos no próprio navegador;</li>
+				<li>Salvamento do nível feito em arquivo JSON;</li>
+				<li>Carregamento de níveis salvos para continuar editando;</li>
+				<li>Autosalvamento (nos casos de sair sem salvar o progresso);</li>
+			</ul>
+			<p class="m-2"><a class="underline hover:italic" href="https://github.com/vinimeng/LevelEditor" rel="noreferrer noopener">→ Projeto no GitHub</a></p>
+			<small class="m-2 italic">Se gostar, estrele o projeto ;)</small>
+		</div>
+
+		<hr>
+
+		<div id="laudosweb" class="p-5">
+			<h1 class="font-bold underline text-xl">LaudosWeb</h1>
+			<p class="m-2">O LaudosWeb é um projeto de um RIS (<i>Radiological information system</i>) em linguagem web voltado para clinícas de diagnóstico por imagem.</p>
+			<p class="m-2">Funcionalidades:</p>
+			<ul class="list-disc m-2 px-8">
+				<li>Integrações com ERPs;</li>
+				<li>Integrações com PACS;</li>
+				<li>Fluxo de atendimento de pacientes;</li>
+				<li>Gravação de áudios e digitação de laudos médicos;</li>
+				<li>Visualização de exames online;</li>
+			</ul>
+			<p class="m-2">O projeto não é de minha autoria, no momento sou apenas o principal desenvolvedor do projeto.</p>
+			<p class="m-2"><a class="underline hover:italic" href="https://ris.verodellaudo.com.br" rel="noreferrer noopener">→ LaudosWeb da Clínica Vero Dellaudo</a></p>
+			<p class="m-2"><a class="underline hover:italic" href="https://ris.suldiagnostico.com.br" rel="noreferrer noopener">→ LaudosWeb da Clínica Sul Diagnóstico</a></p>
+		</div>
+
+		<hr>
+
+		<div id="fmsistemas" class="p-5">
+			<h1 class="font-bold underline text-xl">FM Sistemas</h1>
+			<p class="m-2">O FM Sistemas é um sistema de gerenciamento de radiofármacos, voltado principalmente para o fluxo de trabalho de exames de medicina nuclear.</p>
+			<p class="m-2">Funcionalidades:</p>
+			<ul class="list-disc m-2 px-8">
+				<li>Cadastros e controles de geradores, eluição, marcação, fracionamento, administração e evolução;</li>
+				<li>Entrada e saída de materiais;</li>
+				<li>Cadastros de pacientes, agendas e atendimentos;</li>
+				<li>Controle de acesso e rastreamento;</li>
+				<li>Relatório e gráficos;</li>
+			</ul>
+			<p class="m-2">O projeto não é de minha autoria, fui apenas um dos desenvolvedores do projeto.</p>
+			<p class="m-2"><a class="underline hover:italic" href="https://fmsistemas.med.br" rel="noreferrer noopener">→ FM Sistemas</a></p>
+		</div>
+
+		<hr>
+
+		<div id="impressaosobdemanda" class="p-5">
+			<h1 class="font-bold underline text-xl">Impressão Sob Demanda</h1>
+			<p class="m-2">O projeto consiste em dar a possibilidade para executar as impressões de exames DICOM sob demanda.</p>
+			<p class="m-2">Funcionalidades:</p>
+			<ul class="list-disc m-2 px-8">
+				<li>Impressões vindas diretamente dos aparelhos médicos;</li>
+				<li>Rotina de OCR para obter informações diretamente das imagens (ID, Nome do paciente, Accession number);</li>
+				<li>Criação de regras específicas para cada aparelho médico para executar rotinas de OCR nas imagens;</li>
+				<li>Integração com worklist para vincular informações;</li>
+				<li>Possibilidade de integrações com sistemas existentes;</li>
+			</ul>
+			<p class="m-2">Sou o principal desenvolvedor do projeto.</p>
+		</div>
+
+		<hr>
+
+		<div id="sitepessoal" class="p-5">
+			<h1 class="font-bold underline text-xl">Site Pessoal</h1>
+			<p class="m-2">Meu site pessoal. Esse aqui que você está navegando :)</p>
+			<p class="m-2">Funcionalidades:</p>
+			<ul class="list-disc m-2 px-8">
+				<li>Simples;</li>
+				<li>Funcional;</li>
+				<li>Informativo;</li>
+				<li>Feito com HTML5, <a class="underline hover:italic" href="https://tailwindcss.com" rel="noreferrer noopener">Tailwind CSS</a> e <a class="underline hover:italic" href="https://www.typescriptlang.org" rel="noreferrer noopener">Typescript</a>;</li>
+			</ul>
+			<p class="m-2"><a class="underline hover:italic" href="https://github.com/vinimeng/viniciusmengsite" rel="noreferrer noopener">→ Projeto no GitHub</a></p>
+			<small class="m-2 italic">Se gostar, estrele o projeto ;)</small>
+		</div>
 	</div>
+	
+	<div id="contato" class="bg-container m-5 p-5 rounded shadow-lg drop-shadow-lg lg:w-3/5 lg:mx-auto">
+		<div class="flex flex-col align-middle justify-center text-center">
+			<h1 class="font-bold underline text-3xl">Contato</h1>
+		</div>
+
+		<div class="p-5">
+			<p class="m-2"><a class="underline hover:italic" href="https://www.linkedin.com/in/vinicius-meng" rel="noreferrer noopener">→ LinkedIn</a></p>
+			<p class="m-2"><a class="underline hover:italic" href="https://github.com/vinimeng" rel="noreferrer noopener">→ GitHub</a></p>
+			<p class="m-2"><a class="underline hover:italic" href="https://www.facebook.com/vinicius.meng" rel="noreferrer noopener">→ Facebook</a></p>
+			<p class="m-2"><a class="underline hover:italic" href="mailto:viniciusmeng2@gmail.com" rel="noreferrer noopener">viniciusmeng2@gmail.com</a></p>
+		</div>
+	</div>
+
+	<p class="m-5 px-1 lg:w-3/5 lg:mx-auto">Feito com ♥ por Vinícius Meng</p>
+
 	<script src="./assets/js/index.js"></script>
 </body>
 
