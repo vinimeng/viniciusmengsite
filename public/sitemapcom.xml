@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+		<url>
+			<loc>https://viniciusmeng.com</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#sobremim</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#projetos</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#contato</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#betterstartup</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#leveleditor</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#laudosweb</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#fmsistemas</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+		<url>
+			<loc>https://viniciusmeng.com/#impressaosobdemanda</loc>
+			<changefreq>never</changefreq>
+		</url>
+
+        <url>
+			<loc>https://viniciusmeng.com/#sitepessoal</loc>
+			<changefreq>never</changefreq>
+		</url>
+	</urlset>
